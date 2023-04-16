@@ -1,0 +1,218 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import-normalize;
+
+body{
+  @apply bg-[#181818];
+  
+ 
+}
+
+.main{
+  @apply md:w-1/2  mx-auto shadow-xl rounded-2xl pb-2 bg-white;
+}
+
+.Navbar{
+  width: 5.8rem;
+  height: 4rem;
+  @apply flex justify-center m-2 bg-contain bg-center bg-no-repeat;
+}
+
+.landing-logo-c{
+  @apply flex justify-center items-center
+}
+
+.select-container{
+  @apply  w-full h-full m-4 grid grid-cols-6 grid-rows-4 gap-4 ;
+}
+
+.user-select{
+  
+  @apply  bg-blue-500 rounded-md text-white p-4;
+}
+
+.user-select-list{
+  
+  @apply  rounded-md text-white p-4;
+}
+
+.link-button{
+  @apply w-full p-5 bg-red-400;
+}
+
+.home-c{
+  @apply h-full;
+}
+.events-c{
+  background-color: #202124;
+  @apply grid grid-rows-5 grid-cols-5 gap-2;
+}
+.more-options{
+  @apply row-span-1 col-start-3 col-end-4 m-1 border-slate-700 flex items-center justify-center;
+}
+.more-btn{
+  @apply border-2 px-5 border-slate-700 w-full rounded-md p-2 text-white hover:bg-white hover:text-slate-700;
+}
+.left-event-slider{
+  @apply row-start-3 flex items-center justify-center;
+}
+.right-event-slider{
+  @apply row-start-3 col-start-5 flex items-center justify-center;
+}
+.slider-button{
+  @apply border-2 rounded-full w-1/4 text-white border-slate-700 hover:bg-purple-500;
+}
+.top-event-c{
+  @apply bg-pink-300 border-4 rounded-xl border-slate-700 row-start-1 row-span-5 col-start-2 col-span-3 grid grid-cols-5 grid-rows-5 gap-2;
+}
+.top-participants{
+  @apply row-start-1 col-start-1 flex justify-center items-center text-white;
+}
+.participants-number{
+  background-color: #FF0000;
+  @apply rounded-md px-4 font-bold;
+}
+
+.top-event-title{
+  @apply text-lg font-bold flex justify-center items-center;
+}
+.top-event-host{
+  @apply text-sm border-2 border-slate-700 rounded-full py-6 m-2 flex items-center justify-center;
+
+}
+.top-event-about{
+  @apply row-start-5 row-span-1 col-start-4 col-end-6 border-2 flex items-center;
+
+}
+.top-event-thumbnail{
+  @apply row-start-2 row-span-6 col-start-1 col-end-6 border-2 flex justify-center items-center;
+
+}
+.top-event-details{
+  @apply text-white row-start-6 col-start-2 col-span-3 flex justify-start items-center;
+}
+.ulp-events-c{
+  @apply m-4  flex justify-around items-center;
+}
+.upcoming-events{
+  @apply border-2 w-1/6;
+}
+.live-events{
+  @apply border-2 w-1/6;
+
+}
+.deselect-option{
+  @apply ml-1 bg-slate-500 rounded-md hover:bg-purple-500;
+}
+.past-events{
+  @apply border-2 w-1/6;
+
+}
+.select-btn{
+  @apply rounded-md w-1/6 h-full border-slate-700 bg-slate-50 hover:bg-slate-400 ;
+}
+
+.live-event{
+  @apply flex flex-wrap justify-between p-4;
+}
+
+.event-c{
+  @apply bg-white w-1/3 flex flex-col text-black rounded-md;
+}
+.eventDetails-c{
+  @apply flex justify-around mt-2 text-black;
+}
+.host-logo{
+  @apply rounded-full w-[13%] h-12 ml-2;
+}
+.event-title{
+  @apply w-full text-sm font-bold text-black;
+}
+.event-host{
+  @apply text-[0.75rem] text-gray-400;
+}
+
+.topicSearchBar-c{
+  @apply bg-[#202020] text-white text-sm flex flex-wrap justify-between border-l-0 border-r-0 border-t-[0.04px] border-b-[1px] border-[#55F5F];
+}
+
+.deselect-event{
+  @apply border-2 w-fit h-fit row-end-1 ml-12 p-2.5 rounded-md hover:bg-purple-500;
+}
+
+.selected-event-c{
+  @apply text-black flex flex-wrap gap-1 justify-around;
+}
+
+.selected-event{
+  @apply bg-[#181818] w-[68%] h-[10%] row-start-1 col-start-1 col-end-4 flex flex-col text-white rounded-md mx-12;
+
+}
+.selected-event-about{
+  @apply flex justify-around mt-2 flex-col;
+
+}
+
+.selected-event-host{
+  @apply text-gray-400 flex justify-center items-center gap-2;
+}
+.selected-event-host-logo{
+  @apply rounded-full w-[30%] h-12;
+
+}
+.selected-event-time{
+  @apply rounded-md bg-[#FF0000] px-1 m-2 font-bold;
+}
+.selected-event-tags{
+  @apply text-white p-2 font-bold flex flex-col justify-around align-middle;
+
+}
+.selected-event-tag{
+  @apply rounded-md bg-[#ad112b] m-2 p-2;
+}
+
+.selected-event-join{
+  @apply rounded-md bg-[#ad112b] p-2 m-2 font-bold;
+
+}
+
+.selected-event-participants{
+  @apply text-gray-400
+}
+
+.selected-event-details{
+  @apply flex flex-col w-full;
+}
+
+.selected-event-title{
+  @apply text-lg text-left ml-[8%] mt-3 pl-16 font-bold;
+}
+.task-bar{
+  @apply  w-[55%] my-5 shadow-xl rounded-md;
+}
+
+.task-item{
+  @apply flex justify-around my-4;
+}
+.task-item div{
+  @apply flex-initial;
+}
+.task-info{
+  @apply font-bold;
+}
+
+.budget-item{
+  @apply text-white bg-[#ad112b] w-[25%] shadow-2xl rounded-md;
+}
+
+
+
+
+
+
+
+
+
+
+

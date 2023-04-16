@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Why Is Code Unorganized？
+
+The repository was too large to upload so we uploaded all files separately， the computer also froze completely close to submission time
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
